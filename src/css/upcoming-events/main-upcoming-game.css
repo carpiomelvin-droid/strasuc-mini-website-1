@@ -1,0 +1,55 @@
+.main-upcoming-game {
+  border-radius: 8px;
+  padding: 20px;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  width: 100%;
+}
+.title-upcoming-game {
+  background-color: var(--secondary-color);
+  width: 10%;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
+.container-upcoming-game {
+  background-color: rgb(238, 237, 237);
+}
+.icons {
+  width: 52px;
+}
+.s-event {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 1px;
+  border: 2px solid rgba(0, 0, 0, 0.05);
+  background-color: rgb(252, 252, 252);
+}
+td,
+th {
+  padding: 8px;
+  text-align: center;
+}
+th {
+  font-size: 0.8em;
+  background-color: rgb(247, 227, 227);
+}
+td {
+  font-size: 0.8em;
+  text-align: center;
+  opacity: 80%;
+}
+i {
+  background-color: rgb(234, 234, 234);
+  padding: 4px;
+  opacity: 50%;
+  border-radius: 6px;
+  color: black;
+}

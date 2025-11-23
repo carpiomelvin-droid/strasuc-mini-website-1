@@ -1,0 +1,30 @@
+:root {
+  --primary-color: #800020;
+  --secondary-color: #ff1216;
+  --hover-text-color: #ca0a3a;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #fff4f4;
+  font-family: roboto, sans-serif;
+}
+li {
+  list-style: none;
+  cursor: pointer;
+}
+strong {
+  font-weight: 900;
+  color: var(--secondary-color);
+  font-size: 22px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}

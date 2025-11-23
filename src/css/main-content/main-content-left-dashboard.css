@@ -1,0 +1,16 @@
+.left-dashboard {
+  background-color: #ffff;
+  align-items: start;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  width: 45%;
+}
+.left-dashboard > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+  justify-content: space-around;
+  padding: 10px;
+}

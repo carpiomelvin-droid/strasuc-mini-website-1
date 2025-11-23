@@ -1,0 +1,60 @@
+.main-medal-tally {
+  margin: 20px;
+  background-color: white;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.title-medal-tally {
+  text-align: center;
+  margin-top: 40px;
+
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1.2em;
+  color: var(--primary-color);
+}
+.medal-main-container {
+  background-color: var(--primary-color);
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  text-transform: uppercase;
+}
+.medal-tally-university {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+.medal-tally-university > img {
+  width: 120px;
+}
+.medal-tally-content > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15rem;
+  margin-left: 150px;
+}
+.medal-tally-content > ul > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.medal-icon {
+  width: 34px;
+}
+.gsb {
+  opacity: 50%;
+  font-size: 0.8em;
+}
+.total {
+  font-weight: 800;
+}
+.uni-name {
+  font-size: 0.8em;
+}

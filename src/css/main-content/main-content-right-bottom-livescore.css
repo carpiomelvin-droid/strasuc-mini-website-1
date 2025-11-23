@@ -1,0 +1,38 @@
+.leader-score-board-bottom {
+  text-transform: uppercase;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.leaderboard-title {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.leader-score-board-bottom > span {
+  font-weight: 800;
+}
+.leaderboard-headers {
+  opacity: 0.4;
+  display: flex;
+  font-size: 10px;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 600;
+  margin-left: 35%;
+  margin-top: 10px;
+}
+.leaderboard-scores {
+  overflow-y: scroll;
+}
+.leaderboard-scores > ul {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff4f4;
+}
+.leaderboard-scores > ul > li > img {
+  width: 30px;
+  height: 30px;
+}
